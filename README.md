@@ -24,8 +24,8 @@ Optional parameters:
 - `--b1_classifier`: Exponential decay rate of first moment. | default = 0.9
 - `--b2_classifier`: Exponential decay rate of second moment for classifier model optimizer. | default = 0.999
 - `--lr_discriminator`: Learning rate for discriminator model. | default = 0.00001
-- `--b1_discriminator`: Exponential decay rate of first moment for discriminator model optimizer. | default = 0.9
-- `--b2_discriminator`: Exponential decay rate of second moment for discriminator model optimizer. | default = 0.999
+- `--b1_discriminator`: Exponential decay rate of first moment for discriminator optimizer. | default = 0.9
+- `--b2_discriminator`: Exponential decay rate of second moment for discriminator optimizer. | default = 0.999
 - `--lr_combined`: Learning rate for combined model. | default = 0.00001
 - `--b1_combined`: Exponential decay rate of first moment for combined model optimizer. | default = 0.9
 - `--b2_combined`: Exponential decay rate of second moment for combined model optimizer. | default = 0.999
@@ -36,7 +36,7 @@ Optional parameters:
 - `--num_iterations`: Number of iterations. | default = 12000
 - `--snapshot_interval`: Minimum gap between saving outputs. | default = 30
 - `--output_dir`: Directory for saving outputs. | default = 'Models'
-- 
+
 
 ### Data / pre-trained model availability:
 > Dataset is accessable via [Kaggle](https://www.kaggle.com/mehradaria/covid19-lung-ct-scans).
