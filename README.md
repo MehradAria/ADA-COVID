@@ -8,11 +8,13 @@ Rapid diagnosis of COVID-19 with high reliability is essential in the early stag
 
 ## Train
 Use [ADA-COVID.py](https://github.com/MehradAria/ADA-COVID/blob/main/ADA-COVID.py)
+
 ```shell
 # Example
 python ADA-COVID.py --source_path "/source.txt" --target_path "/target.txt" --batch_size 32
 ```
-Optional parameters:
+
+Parameters:
 - `--number_of_gpus`: Number of gpus to run. | default = '1'
 - `--network_name`: Name of the feature extractor network. | default = 'ResNet50'
 - `--dataset_name`: Name of the source dataset. | default = 'COVID'
@@ -37,20 +39,27 @@ Optional parameters:
 - `--snapshot_interval`: Minimum gap between saving outputs. | default = 30
 - `--output_dir`: Directory for saving outputs. | default = 'Models'
 
+---
+### Paper / Data / pre-trained model availability:
 
-### Data / pre-trained model availability:
-> Dataset is accessable via [Kaggle](https://www.kaggle.com/mehradaria/covid19-lung-ct-scans).
+- The paper (Open Access): [ADA-COVID: Adversarial Deep Domain Adaptation-Based Diagnosis of COVID-19 from Lung CT Scans Using Triplet Embeddings](https://doi.org/10.1155/2022/2564022)
+
+- Dataset is accessable via [Kaggle](https://www.kaggle.com/mehradaria/covid19-lung-ct-scans).
 ```
 Aria, M., et al. "COVID-19 Lung CT Scans: A large dataset of lung CT scans for COVID-19 (SARS-CoV-2) detection." Kaggle. doi: https://doi.org/10.34740/kaggle/dsv/1875670. [accessed 2021-04-20] (2021).
 ```
-> Model is not publicly available at this moment.
+- Model is not publicly available at this moment.
 
+---
 ### Condition and terms to use any sources of this project (Codes, Datasets, etc.):
 
 1) Please cite the following paper:
-
-> Mehrad Aria, Esmaeil Nourani, Amin Golzari Oskouei, "ADA-COVID: Adversarial Deep Domain Adaptation-Based Diagnosis of COVID-19 from Lung CT Scans Using Triplet Embeddings", Computational Intelligence and Neuroscience, vol. 2022, Article ID 2564022, 17 pages, 2022. https://doi.org/10.1155/2022/2564022
+```
+Mehrad Aria, Esmaeil Nourani, Amin Golzari Oskouei,
+"ADA-COVID: Adversarial Deep Domain Adaptation-Based Diagnosis of COVID-19 from Lung CT Scans Using Triplet Embeddings",
+Computational Intelligence and Neuroscience, vol. 2022, Article ID 2564022, 17 pages, 2022.
+https://doi.org/10.1155/2022/2564022
+```
 
 2) Please do not distribute the database or source codes to others without the authorization from authors.
-
-> Authors’ Emails: mehrad.aria[at]shirazu.ac.ir (M. Aria).
+Authors’ Emails: `mehrad.aria[at]shirazu.ac.ir` (M. Aria).
