@@ -44,11 +44,11 @@ Parameters:
 
 - The paper (Open Access): [ADA-COVID: Adversarial Deep Domain Adaptation-Based Diagnosis of COVID-19 from Lung CT Scans Using Triplet Embeddings](https://doi.org/10.1155/2022/2564022)
 
-- Dataset is accessable via [Kaggle](https://www.kaggle.com/mehradaria/covid19-lung-ct-scans).
+- The dataset is accessible via [Kaggle](https://www.kaggle.com/mehradaria/covid19-lung-ct-scans).
 ```
 Aria, M., et al. "COVID-19 Lung CT Scans: A large dataset of lung CT scans for COVID-19 (SARS-CoV-2) detection." Kaggle. doi: https://doi.org/10.34740/kaggle/dsv/1875670. [accessed 2021-04-20] (2021).
 ```
-- Model is not publicly available at this moment.
+- The model is not publicly available at this moment.
 
 ---
 ### Condition and terms to use any sources of this project (Codes, Datasets, etc.):
@@ -61,5 +61,5 @@ Computational Intelligence and Neuroscience, vol. 2022, Article ID 2564022, 17 p
 https://doi.org/10.1155/2022/2564022
 ```
 
-2) Please do not distribute the database or source codes to others without the authorization from authors.
-Authors’ Emails: `mehrad.aria[at]shirazu.ac.ir` (M. Aria).
+2) Please do not distribute the database or source codes to others without author authorization.
+Authors’ Email: `mehrad.aria[at]shirazu.ac.ir` (M. Aria).
