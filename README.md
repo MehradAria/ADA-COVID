@@ -70,7 +70,7 @@ structure of `COVID/` and `non-COVID/` subfolders.
 
 ## Usage
 
-```shell
+```powershell
 python main.py
 ```
 
@@ -92,6 +92,6 @@ Please cite the following Open Access [paper](https://doi.org/10.1155/2022/25640
   doi     = {10.1155/2022/2564022}
 }
 ```
-```APA
+```
 Aria, M., Nourani, E., & Golzari Oskouei, A. (2022). ADA-COVID: Adversarial deep domain adaptation-based diagnosis of COVID-19 from lung CT scans using triplet embeddings. Computational Intelligence and Neuroscience, 2022, 2564022. https://doi.org/10.1155/2022/2564022
 ```
