@@ -70,7 +70,7 @@ structure of `COVID/` and `non-COVID/` subfolders.
 
 ## Usage
 
-```bash
+```shell
 python main.py
 ```
 
@@ -80,10 +80,6 @@ saves the trained models plus a training-progress plot.
 
 ## Citation
 Please cite the following Open Access [paper](https://doi.org/10.1155/2022/2564022):
-
-```
-13.	Aria, M., Nourani, E., & Golzari Oskouei, A. (2022). ADA-COVID: Adversarial deep domain adaptation-based diagnosis of COVID-19 from lung CT scans using triplet embeddings. Computational Intelligence and Neuroscience, 2022, 2564022. https://doi.org/10.1155/2022/2564022
-```
 
 ```bibtex
 @article{aria2022adacovid,
@@ -95,4 +91,7 @@ Please cite the following Open Access [paper](https://doi.org/10.1155/2022/25640
   year    = {2022},
   doi     = {10.1155/2022/2564022}
 }
+```
+```APA
+Aria, M., Nourani, E., & Golzari Oskouei, A. (2022). ADA-COVID: Adversarial deep domain adaptation-based diagnosis of COVID-19 from lung CT scans using triplet embeddings. Computational Intelligence and Neuroscience, 2022, 2564022. https://doi.org/10.1155/2022/2564022
 ```
